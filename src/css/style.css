@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    align-items: center;
+    border: #697278;
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+    background-color: #c91010;
+    color: white;
+    margin: auto;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b22020;
+}
+
+.popover {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.form-popover {
+    position: absolute;
+    padding: 5px 10px;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    color: #000;
+    text-align: left;
+}
+
+.form-popover > p {
+    font-size: 12px;
+}
+
+.form-popover > h3 {
+    margin: 0;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.popover-btn {
+    text-align: center;
+}
+
+[data-position='top'] {
+    margin-top: -10px;
+  }
+  
+[data-position='top']::after {
+  content: ''; 
+
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  border: 10px solid transparent;
+  border-top: 10px solid #c2c0c0;
+}

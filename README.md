@@ -1,7 +1,6 @@
 ### Ссылка на [GitHub Pages](https://orlovaaa.github.io/ahj-popovers/)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/tq2o5k63i6mfprn4/branch/main?svg=true)](https://ci.appveyor.com/project/orlovaaa/ahj-dom/branch/main)
-
+[![Build status](https://ci.appveyor.com/api/projects/status/nje1qqc04jc3i193/branch/main?svg=true)](https://ci.appveyor.com/project/orlovaaa/ahj-popovers/branch/main)
 ### Popovers
 
 #### Легенда
